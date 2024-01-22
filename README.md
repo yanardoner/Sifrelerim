@@ -67,35 +67,35 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 
 ## Proje Yapısı
 
-Şifrelerim/
-|-- instance/
-|   |-- (diary.db)
-|-- static/
-|   |-- css/
-|   |   |-- style.css
-|   |-- img/
-|   |   |-- çöp.png
-|   |   |-- kilit.png
-|   |   |-- login.svg
-|   |   |-- logo.svg
-|   |   |-- plus.svg
-|-- templates/
-|   |-- card.html
-|   |-- create_card.html
-|   |-- index.html
-|   |-- login.html
-|   |-- registration.html
-|-- dbCreation.txt
-|-- main.py
-|-- README.md
+- Şifrelerim/
+- |-- instance/
+- |   |-- (diary.db)
+- |-- static/
+- |   |-- css/
+- |   |   |-- style.css
+- |   |-- img/
+- |   |   |-- çöp.png
+- |   |   |-- kilit.png
+- |   |   |-- login.svg
+- |   |   |-- logo.svg
+- |   |   |-- plus.svg
+- |-- templates/
+- |   |-- card.html
+- |   |-- create_card.html
+- |   |-- index.html
+- |   |-- login.html
+- |   |-- registration.html
+- |-- dbCreation.txt
+- |-- main.py
+- |-- README.md
 
 ## Kullanım
 
-1.Kayıt sayfasından siteye kayıt olabilirsiniz.
-2.Giriş sayfasından giriş yapabilirsiniz.
-3.Kayıtlarınızın bulunacağı sayfada yeni kayıt oluşturabilir ve oluşturduğunuz kayıtlara göz atabilirsiniz.
-4.Kayıtlarınızı istediğiniz zaman kaydı görüntüleyerek çöp kutusu simgesi sayesinde silebilirsiniz.
-5.Sayfanın üst kısmında bulunan kitap butonu sayesinde kayıtlarınızın bulunduğu sayfaya gidebilir, giriş butonu sayesinde ise giriş ekranına gidebilirsiniz.
+- 1.Kayıt sayfasından siteye kayıt olabilirsiniz.
+- 2.Giriş sayfasından giriş yapabilirsiniz.
+- 3.Kayıtlarınızın bulunacağı sayfada yeni kayıt oluşturabilir ve oluşturduğunuz kayıtlara göz atabilirsiniz.
+- 4.Kayıtlarınızı istediğiniz zaman kaydı görüntüleyerek çöp kutusu simgesi sayesinde silebilirsiniz.
+- 5.Sayfanın üst kısmında bulunan kitap butonu sayesinde kayıtlarınızın bulunduğu sayfaya gidebilir, giriş butonu sayesinde ise giriş ekranına gidebilirsiniz.
 
 ## Easter Egg:
 
