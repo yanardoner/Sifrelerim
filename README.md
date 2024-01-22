@@ -69,7 +69,7 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 
 - Şifrelerim/
 - |-- instance/
-- |   |-- (diary.db)
+- |    |-- (diary.db)
 - |-- static/
 - |   |-- css/
 - |   |   |-- style.css
@@ -97,7 +97,7 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 - 4.Kayıtlarınızı istediğiniz zaman kaydı görüntüleyerek çöp kutusu simgesi sayesinde silebilirsiniz.
 - 5.Sayfanın üst kısmında bulunan kitap butonu sayesinde kayıtlarınızın bulunduğu sayfaya gidebilir, giriş butonu sayesinde ise giriş ekranına gidebilirsiniz.
 
-## Easter Egg:
+## Easter Egg
 
 Her yazılımın önemli bir parçası olan Easter Egg'lere bu web sitesinde de yer veriliyor!
 İpucu olarak kayıt sayfasından başlayabilirsiniz.
