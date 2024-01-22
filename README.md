@@ -71,20 +71,20 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 - |-- instance/
 - |___|-- (diary.db)
 - |-- static/
-- |   |-- css/
-- |   |   |-- style.css
-- |   |-- img/
-- |   |   |-- çöp.png
-- |   |   |-- kilit.png
-- |   |   |-- login.svg
-- |   |   |-- logo.svg
-- |   |   |-- plus.svg
+- |___|-- css/
+- |___|___|-- style.css
+- |___|-- img/
+- |___|___|-- çöp.png
+- |___|___|-- kilit.png
+- |___|___|-- login.svg
+- |___|___|-- logo.svg
+- |___|___|-- plus.svg
 - |-- templates/
-- |   |-- card.html
-- |   |-- create_card.html
-- |   |-- index.html
-- |   |-- login.html
-- |   |-- registration.html
+- |___|-- card.html
+- |___|-- create_card.html
+- |___|-- index.html
+- |___|-- login.html
+- |___|-- registration.html
 - |-- dbCreation.txt
 - |-- main.py
 - |-- README.md
