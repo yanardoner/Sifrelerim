@@ -1,0 +1,9 @@
+terminale python3 yaz enter'a bas.
+
+from main import app, db
+app.app_context().push()
+db.create_all()
+
+bu komutları terminale ver.
+
+exit() yazarak python kapat.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şifrelerim</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+      <main class="main-login">
+        {% block content %}
+        <form action="{{ url_for('reg') }}" method="post" class="login">
+            <p class="d__error"></p>
+            <label for="email">
+                <input class="form__input" type="email" name="email" id="email" placeholder="E-postanızı girin" required>
+            </label>
+            <label for="password">
+                <input class="form__input" type="password" name="password" id="password" placeholder="Şifrenizi girin" required>
+            </label>
+            <button class="form__button">Hesap oluştur</button>
+            <a href="/" class="form__button reg__link">Giriş</a>
+        </form>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"class="important"></a>
+        {% endblock %}
+      </main>
+</body>
+</html>

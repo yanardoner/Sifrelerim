@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Şifrelerim</title>
+</head>
+<body>
+  <label class="top">
+    <a class="header" href="/index">
+      <img src="../static/img/logo.svg" alt="logo" width="30" height="30">
+    </a>
+    <a class="loginimg" href="/">
+      <img src="../static/img/login.svg" alt="login" width="25" height="30">
+    </a>
+  </label>
+  <main class="main">
+    {% block content %}
+    <div class="main__block">
+      <form action="{{ url_for('Delete_card', id=card.id) }}" method="POST" class="creat-form">
+        <button type="submit" class="delete">
+            <img src="../static/img/çöp.png" alt="login" width="50" height="50">
+        </button>
+      </form>
+      <div class="main__inside-block">
+        <h1 class="main__title">{{card.title}}</h1>
+        <h1 class="main__text">{{card.text}}</h1>
+      </div>
+      <a class="main__link" href="/index">Kayıtlara geri dön</a>
+    </div>
+  </main>
+  {% endblock %}
+  <footer>
+  </footer>
+</body>
+</html>
