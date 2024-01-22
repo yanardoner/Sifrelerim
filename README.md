@@ -95,7 +95,7 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 - Giriş sayfasından giriş yapabilirsiniz.
 - Kayıtlarınızın bulunacağı sayfada yeni kayıt oluşturabilir ve oluşturduğunuz kayıtlara göz atabilirsiniz.
 - Kayıtlarınızı istediğiniz zaman kaydı görüntüleyerek çöp kutusu simgesi sayesinde silebilirsiniz.
-- Sayfanın üst kısmında bulunan kitap butonu sayesinde kayıtlarınızın bulunduğu sayfaya gidebilir, giriş butonu sayesinde ise giriş ekranına gidebilirsiniz.
+- Sayfanın üst kısmında bulunan kitap butonu sayesinde kayıtlarınızın bulunduğu sayfaya gidebilir, giriş butonu sayesinde ise giriş ekranı sayfasına gidebilirsiniz.
 
 ## Easter Egg
 
