@@ -87,7 +87,7 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 - |___|-- registration.html
 - |-- dbCreation.txt
 - |-- main.py
-- |-- README.md
+- README.md
 
 ## Kullanım
 
