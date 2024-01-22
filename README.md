@@ -69,7 +69,7 @@ Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web u
 
 - Şifrelerim/
 - |-- instance/
-- |    |-- (diary.db)
+- |___|-- (diary.db)
 - |-- static/
 - |   |-- css/
 - |   |   |-- style.css
