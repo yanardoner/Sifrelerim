@@ -1,20 +1,20 @@
-# Sifrelerim
+# Şifrelerim
 Şifrelerinizi kaydedebileceğiniz bir site.
+
 ## Açıklama
 
-Bu bölümde projenizin daha ayrıntılı bir açıklamasını yapın. Projenin amacı, kullanım senaryoları ve belki de projenin genel yapısı hakkında bilgiler içerebilir.
+Bu proje, Python Flask framework'ü kullanılarak oluşturulmuş basit bir web uygulaması içerir. Projede HTML ve CSS dosyaları da kullanılmıştır.
 
 ## Başlangıç
 
-Bu bölümde, projeyi başlatmak ve çalıştırmak için kullanıcıların veya geliştiricilerin takip etmesi gereken temel adımları açıklayın.
-
 ### Gereksinimler
 
-Projeyi çalıştırmak için gereken yazılım, kütüphaneler veya bağımlılıklar hakkında bilgi verin.
+- Python 3.x
+- Flask
+- SQLAlchemy
+- Gerekli diğer bağımlılıklar (örneğin, flask-sqlalchemy)
 
 ### Kurulum
-
-Kurulum adımlarını burada belirtin. Örneğin:
 
 1. Proje dizinini bilgisayarınıza klonlayın:
 
@@ -25,21 +25,79 @@ Kurulum adımlarını burada belirtin. Örneğin:
 2. Proje dizinine gidin:
 
     ```bash
-    cd projeadi
+    cd Şifrelerim
     ```
 
 3. Gerekli bağımlılıkları yükleyin:
 
     ```bash
-    npm install
+    pip install pipenv
+    pipenv install SQLAlchemy
+    pip install Flask
+    pip install SQLAlchemy
+    ```
+
+4. Veri tabanını oluşturun:
+
+    ```bash
+    python3
+    ```
+
+    ```bash
+    from main import app, db
+    app.app_context().push()
+    db.create_all()
+    ```
+
+    ```bash
+    exit()
     ```
 
 4. Uygulamayı başlatın:
 
     ```bash
-    npm start
+    python main.py
     ```
+
+5. Tarayıcınızda şu adrese gidin:
+
+    ```bash
+    http://127.0.0.1:5000
+    ```
+
+## Proje Yapısı
+
+Şifrelerim/
+|-- instance/
+|   |-- (diary.db)
+|-- static/
+|   |-- css/
+|   |   |-- style.css
+|   |-- img/
+|   |   |-- çöp.png
+|   |   |-- kilit.png
+|   |   |-- login.svg
+|   |   |-- logo.svg
+|   |   |-- plus.svg
+|-- templates/
+|   |-- card.html
+|   |-- create_card.html
+|   |-- index.html
+|   |-- login.html
+|   |-- registration.html
+|-- dbCreation.txt
+|-- main.py
+|-- README.md
 
 ## Kullanım
 
-Projenin nasıl kullanılacağına dair temel bilgileri buraya ekleyin. Kullanıcılar için örnek kullanım senaryolarını paylaşabilirsiniz.
+1.Kayıt sayfasından siteye kayıt olabilirsiniz.
+2.Giriş sayfasından giriş yapabilirsiniz.
+3.Kayıtlarınızın bulunacağı sayfada yeni kayıt oluşturabilir ve oluşturduğunuz kayıtlara göz atabilirsiniz.
+4.Kayıtlarınızı istediğiniz zaman kaydı görüntüleyerek çöp kutusu simgesi sayesinde silebilirsiniz.
+5.Sayfanın üst kısmında bulunan kitap butonu sayesinde kayıtlarınızın bulunduğu sayfaya gidebilir, giriş butonu sayesinde ise giriş ekranına gidebilirsiniz.
+
+## Easter Egg:
+
+Her yazılımın önemli bir parçası olan Easter Egg'lere bu web sitesinde de yer veriliyor!
+İpucu olarak kayıt sayfasından başlayabilirsiniz.
